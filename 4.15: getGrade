@@ -1,0 +1,23 @@
+public static double getGrade(double grade) {
+    
+    if (grade > 100 || grade < 0) {
+        throw new IllegalArgumentException ("This is not valid"); 
+        
+    }else if (grade <= 95 && grade >= 63){
+        double s = 95 - grade; 
+        s*= 0.1; 
+        double fin = 4.0 - s; 
+        return fin; 
+        
+        }else if (grade >= 60 && grade < 62){
+        return 0.7; 
+              
+    
+    }else{
+        return 0.0; 
+        
+
+           
+}
+               
+    }
