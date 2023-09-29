@@ -1,0 +1,29 @@
+public static void threeHeads (){
+    Random r = new Random(2);
+    int heads = 0; 
+  
+    
+  while(heads < 3){
+      if(r.nextInt() == 1){
+        System.out.print("T ");
+          
+          
+      }else if(r.nextInt() == 0){
+          System.out.print("H ");
+          heads++;
+        
+       if(r.nextInt() == 0 && r.nextInt() == 0){
+          System.out.print("H ");
+          System.out.print("H ");
+          heads+=2;
+          System.out.print("\nThree heads in a row!");
+      }else{
+           continue; 
+  }
+     
+          
+   
+}
+    
+}
+}
