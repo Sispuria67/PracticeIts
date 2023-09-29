@@ -1,0 +1,9 @@
+public static void processName(Scanner s) {
+    System.out.print("Please enter your full name: "); 
+    String first = s.next(); 
+    String last = s.next(); 
+    
+    
+    System.out.println("Your name in reverse order is " + last+", "+ first); 
+    
+}
