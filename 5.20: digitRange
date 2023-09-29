@@ -1,0 +1,27 @@
+public static int digitRange(int i) {
+    int first = i % 10;
+    i/=10;
+    int min = first; 
+    int max = first;
+    
+     
+        while(i != 0){
+           int num= i % 10; 
+            
+           
+        if(num <= min){
+           min = num;
+          
+        }
+       if (num >= max){
+            max = num; 
+    
+
+        }
+         
+         i/=10;
+    } 
+  
+    
+      return (max - min) + 1; 
+}
