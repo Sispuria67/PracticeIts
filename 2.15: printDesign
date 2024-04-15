@@ -1,0 +1,24 @@
+public static void printDesign() {
+    
+       for(int k = 1; k < 10; k+=2){
+
+    
+        for(int j = 0; j < (11 - k)/2; j++){
+            System.out.print("-");
+        }
+           for(int p = 0; p < k; p++){
+             System.out.print(k);
+        
+           }  
+              for(int w = 0; w < (11 - k)/2; w++){
+                  System.out.print("-");
+        
+ 
+           
+}
+       
+       System.out.println();  
+          
+    }
+       
+}
