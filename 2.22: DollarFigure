@@ -1,0 +1,28 @@
+public class DollarFigure{
+    
+    public static void main(String [] args){
+
+for(int lines = 1; lines <= 7; lines++){
+    for(int star = 0; star < lines * 2 - 2; star++){
+        System.out.print("*"); 
+    }
+    for(int money = 0; money < (7 - lines) + 1; money++){
+       System.out.print("$"); 
+ 
+    }  for(int inStar = 0; inStar < (7 - lines) * 2 + 2; inStar++){
+         System.out.print("*"); 
+        
+    }
+       for(int money = 0; money < (7 - lines ) + 1; money++){
+       System.out.print("$"); 
+ 
+    }
+         for(int star = 0; star < lines * 2 - 2; star++){
+        System.out.print("*"); 
+}
+     System.out.println(""); 
+    }
+       
+}
+    
+    }
