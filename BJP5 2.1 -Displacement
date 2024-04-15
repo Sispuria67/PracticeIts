@@ -1,0 +1,7 @@
+double sz = 12.0; 
+double vz = 3.5; 
+double a = 9.8; 
+double t = 10; 
+
+double s = sz + vz * t +  (0.5 * (a * Math.pow(t, 2))); 
+System.out.print(s);
