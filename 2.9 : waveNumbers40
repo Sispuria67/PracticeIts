@@ -1,0 +1,28 @@
+ for(int dash = 1; dash <= 40; dash++){
+        System.out.print("-");    
+    
+}
+System.out.println();
+
+for(int i = 1; i<= 10; i++){
+  
+         System.out.print("_-^-");
+
+    }
+
+
+
+System.out.println();
+
+ for(int num = 1; num <= 2; num++){
+      for(int n = 1; n <= 10; n++){
+      System.out.print(n % 10);
+      System.out.print(n % 10);
+ }
+ }
+System.out.println();
+
+ for(int dash = 1; dash <= 40; dash++){
+        System.out.print("-");    
+    
+}
