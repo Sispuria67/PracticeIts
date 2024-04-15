@@ -1,0 +1,27 @@
+public class StarFigure2{
+     public static final int constant = 3; 
+   
+    
+    public static void main(String[] args) {
+        
+        
+for(int lines = 0; lines < constant; lines++){
+   
+    for(int back = 0; back < (-4 * lines) + (constant * 4 - 4); back++) {
+        System.out.print("/"); 
+    }
+        
+         for(int stars = 0; stars < 8 * lines; stars++) {
+              System.out.print("*"); 
+        }
+    
+        for(int forward = 0; forward < (-4 * lines) + (constant * 4 - 4); forward++) {
+            System.out.print("\\"); 
+    }
+    System.out.println(""); 
+}    
+        
+        
+        }
+    
+}
