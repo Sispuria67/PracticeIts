@@ -1,0 +1,42 @@
+public class Window {
+    public static final int val = 3;
+    public static void main(String[] args){
+        Top();
+        Pane();
+        Top();
+        Pane();
+        Top();
+        
+        
+    }
+    
+  public static void Top(){
+       
+   for(int i = 0; i < 2; i++){
+       System.out.print("+");
+     for(int j = 0; j < val; j++){
+        System.out.print("=");  
+    
+}
+   }
+       System.out.print("+");
+       System.out.println();
+  }
+      public static void Pane(){
+     for(int p = 0; p < val; p++){
+       
+     for(int i = 0; i < 3; i++){
+      System.out.print("|");  
+         
+     for(int j = 0; j < val; j++){
+         System.out.print(" ");  
+         
+         
+      }
+          }
+          System.out.println();
+         
+      }
+          
+}
+}
