@@ -1,0 +1,23 @@
+public class StarFigure{
+    
+    public static void main(String[] args) {
+for(int lines = 0; lines < 5; lines++){
+   
+    for(int back = 0; back < (-4 * lines) + 16; back++) {
+        System.out.print("/"); 
+    }
+        
+         for(int stars = 0; stars < 8 * lines; stars++) {
+              System.out.print("*"); 
+        }
+    
+        for(int forward = 0; forward < (-4 * lines) + 16; forward++) {
+            System.out.print("\\"); 
+    }
+    System.out.println(""); 
+}    
+        
+        
+        }
+    
+}
