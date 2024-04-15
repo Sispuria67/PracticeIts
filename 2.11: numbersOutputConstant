@@ -1,0 +1,35 @@
+public class NumbersOutput{
+    public static final int rep = 6;
+     public static final int range = 10;
+    
+    public static void main(String[] args) {
+        method(); 
+          
+        
+    }
+    
+    public static void method(){
+
+for(int z = 1; z <= rep * range; z++){
+    if(z % range == 0){
+       System.out.print("|");
+    }else{
+        System.out.print(" ");
+        
+    }
+}
+   
+        System.out.println();
+
+for(int p = 1; p <= rep; p++){
+ 
+for(int i = 1; i <= range; i++){
+    if(i % range == 0) {
+        System.out.print(0);
+    }else{
+    System.out.print(i % 10);
+}
+}
+}
+    }
+}
