@@ -1,0 +1,32 @@
+public class DollarFigure2{
+     public static final int val = 7; 
+    
+    
+    public static void main(String [] args){
+       
+
+for(int lines = 1; lines <= val; lines++){
+    
+    for(int star = 0; star < lines * 2 - 2; star++){
+        System.out.print("*"); 
+    }
+    for(int money = 0; money < (val - lines) + 1; money++){
+       System.out.print("$"); 
+ 
+    }  for(int inStar = 0; inStar < (val - lines) * 2 + 2; inStar++){
+         System.out.print("*"); 
+        
+    }
+       for(int money = 0; money < (val - lines) + 1; money++){
+       System.out.print("$"); 
+ 
+    }
+         for(int star = 0; star < lines * 2 - 2; star++){
+        System.out.print("*"); 
+}
+     System.out.println(""); 
+    }
+       
+}
+    
+    }
