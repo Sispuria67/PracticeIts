@@ -1,0 +1,31 @@
+public class SlashFigure{
+    public static void main(String[] args){
+        figures();
+        
+    }
+    
+
+ public static void figures (){   
+
+for(int line = 0; line < 6; line++){
+ 
+    for(int j = 0; j < line * 2; j++){
+        System.out.print("\\");
+       }
+     
+        for(int k = 0; k < 22 -(line * 4); k++){
+            System.out.print("!");
+        }
+            
+   
+    for(int m = 0; m < line * 2; m++){
+            
+        System.out.print("/");
+        }
+                          
+       System.out.println();
+                          }
+    
+                          }
+
+                          }
